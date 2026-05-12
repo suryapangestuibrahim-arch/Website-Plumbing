@@ -1,0 +1,151 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: #f8fafc;
+    color: #334155;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #001f3f 0%, #004488 100%);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.hero-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+/* LOGO KECIL BULET */
+.hero-logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    margin: 0 auto 15px;
+    display: block;
+    background: white;
+    padding: 4px;
+}
+
+/* THE PIPEFATHER */
+.brand-top {
+    font-size: 1rem;
+    color: #38bdf8;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* SURYA TAK ABADI */
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+.subtitle {
+    font-size: 1.2rem;
+    color: #f1f5f9;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+    opacity: 0.95;
+}
+
+/* BUTTON WA */
+.btn-wa {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.btn-wa:hover {
+    background: #20ba5a;
+    transform: translateY(-3px);
+}
+
+/* SERVICES */
+.services {
+    padding: 70px 20px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.services-sub {
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+/* CARD GRID */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    text-align: left;
+    border-top: 5px solid #004488;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #64748b;
+}
+
+/* FOOTER */
+footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 50px;
+}
