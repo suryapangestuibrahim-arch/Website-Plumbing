@@ -52,6 +52,48 @@
         </div>
     </section>
 
+    <section class="testimonials">
+    <h2>Testimoni Pelanggan</h2>
+    <p class="testi-sub">Klik tombol untuk melihat ulasan pelanggan</p>
+
+    <div class="testimonial-slider">
+
+        <!-- Tambah testimoni di sini nanti -->
+
+    </div>
+
+    <div class="testimonial-buttons">
+        <button onclick="prevTesti()">⬅</button>
+        <button onclick="nextTesti()">➡</button>
+    </div>
+</section>
+
+<script>
+let current = 0;
+const testimonials = document.querySelectorAll(".testimonial-card");
+
+function showTestimonial(index) {
+    if (testimonials.length === 0) return;
+    testimonials.forEach(t => t.classList.remove("active"));
+    testimonials[index].classList.add("active");
+}
+
+function nextTesti() {
+    if (testimonials.length === 0) return;
+    current = (current + 1) % testimonials.length;
+    showTestimonial(current);
+}
+
+function prevTesti() {
+    if (testimonials.length === 0) return;
+    current = (current - 1 + testimonials.length) % testimonials.length;
+    showTestimonial(current);
+}
+
+showTestimonial(current);
+</script>
+body yang mana nih/nomer berapa?..
+
     <!-- Bagian Footer -->
     <footer>
         <p>&copy; 2026 Surya Tak Abadi - Jasa Plumbing Profesional. Siap Melayani Panggilan Emergency 24 Jam.</p>

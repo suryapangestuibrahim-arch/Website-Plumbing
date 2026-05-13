@@ -149,3 +149,42 @@ footer {
     padding: 25px 20px;
     margin-top: 50px;
 }
+
+/* TESTIMONI */
+.testimonials {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f9fa;
+}
+
+.testi-sub {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.testimonial-slider {
+    max-width: 700px;
+    margin: auto;
+    min-height: 200px;
+}
+
+.testimonial-card {
+    display: none;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.testimonial-card.active {
+    display: block;
+}
+
+.testimonial-buttons button {
+    margin: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
